@@ -8,9 +8,9 @@ let house, sun, moon;
 let big = 10;
 
 function preload(){
-  house= loadImage("images/house.png");
-  sun= loadImage("images/sun.png");
-  moon= loadImage("images/moon.png");
+  house= createImg("house.png");
+  sun= createImg("sun.png");
+  moon= createImg("moon.png");
 }//end preloading of images and fonts
 
 function setup() {
