@@ -1,5 +1,5 @@
 # 10.3.1-sun-and-moon
-Make sure to down load the pictures Too 
+Make sure to download the pictures for house, sun, and moon 
 
 ```
 //Global Variables
@@ -19,23 +19,21 @@ function setup() {
 }//end setup
 
 function draw() {
-//1 
+// step 1: set the sky variable
   background(sky);
-   
-  //draw the sun & moon
-  //2
-  imageMode(CENTER)
-  image(house,250,475,150,150)
-  image(sun, mouseX, 100,350,350);
 
-    //draw the snow
+//step 2 draw the sun & moon  Use if() statements 
+
+
+
+//draw the snow
   fill(200);
   noStroke();
   rect(0,550,500,50);
   fill(255,0,0);
 
-    // draw caption
-  //3
+//Step 3 draw caption
+
   textSize(big);
   textAlign(CENTER);
   text("A fine winter's day!", width/2,590);
