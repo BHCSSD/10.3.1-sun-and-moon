@@ -1,7 +1,7 @@
 # 10.3.1-sun-and-moon
 Make sure to download the pictures for house, sun, and moon 
 
-```
+```javaScript
 //Global Variables
 let sky = 255;
 let house, sun, moon;
